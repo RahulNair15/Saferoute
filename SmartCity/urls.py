@@ -7,10 +7,8 @@ from Vigilantix import views as vigilantix_views
 urlpatterns = [
     path('', vigilantix_views.landingpage, name='landingpage'),
     path('saferoute/', include('Vigilantix.urls')),
-    path('traffic/', include('streetvigil.urls')),
     path("__reload__/", include("django_browser_reload.urls")),
     path('admin/', admin.site.urls),
-    path('wastesegregation/', include('wastesegregation.urls')),
     path('chatbot/', include('Chatbot.urls')),
 
 ]

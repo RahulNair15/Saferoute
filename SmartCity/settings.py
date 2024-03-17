@@ -18,8 +18,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'Vigilantix',
-    'streetvigil',
-    'wastesegregation',
     'Chatbot',
     'django.contrib.admin',
     'django.contrib.auth',
