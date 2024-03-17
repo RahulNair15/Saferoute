@@ -4,7 +4,7 @@
       {
         "src": "SmartCity/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15000mb", "runtime": "python3.9" }
+        "config": { "maxLambdaSize": "1024mb", "runtime": "python3.9" }
       },
       {
         "src": "build_files.sh",
